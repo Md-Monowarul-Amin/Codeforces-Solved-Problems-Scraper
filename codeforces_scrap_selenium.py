@@ -84,7 +84,7 @@ for i in range(6,13):
             problem_name = problem_name[:index] + problem_name[index+1:]
         # print(ol[0].text)
         # Open the file in write mode ('w')
-        file_name = "problems" + "/" + problem_name + ".py"
+        file_name = "CodeforcesProblems" + "/" + problem_name + ".py"
         with open(file_name, "w") as file:
             file.write(problem_text)
 
